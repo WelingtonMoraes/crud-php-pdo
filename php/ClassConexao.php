@@ -1,14 +1,17 @@
 <?php
 
-abstract class ClassConexao{
+abstract class ClassConexao
+{
    
     //conexao com o BD
-    protected function conectaBD()
+    protected function conectaDB()
     {
-        try{
+        try
+        {
             $con=new PDO("mysql:host=localhost;bdname=crud","root","usbw");
             return $con;
-        }catch (PDOException $Erro){
+        }catch (PDOException $Erro)
+        {
             return $Erro->getMessage();
         }
     }
