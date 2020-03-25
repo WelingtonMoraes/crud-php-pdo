@@ -30,7 +30,7 @@ include("php/ClassCrud.php");
             <td><?php echo $Fetch['nome']; ?></td>
             <td><?php echo $Fetch['email']; ?></td>
             <td>
-                <a href="atualizacao.php">edite</a>
+                <a href="<?php echo "update.php?id={$Fetch['id']}"; ?>">edite</a>
                 <a href="<?php echo "controllers/ControllersDelete.php?id={$Fetch['id']}"; ?>">exclui</a>
             </td>
         </tr>

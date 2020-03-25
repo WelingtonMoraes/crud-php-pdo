@@ -21,3 +21,5 @@ $Crud->insertDB(
 
 
 echo "Cadastro realizado com sucesso";
+echo "<br>";
+echo"<a href=../selecao.php>Visualizar cadastros</a>";
