@@ -11,6 +11,7 @@
 	<?php
 		include("php/ClassConexao.php");
 		include("php/ClassCrud.php");
+		$Crud=new ClassCrud();
 	?>
 	<body>
 		<div class="left">

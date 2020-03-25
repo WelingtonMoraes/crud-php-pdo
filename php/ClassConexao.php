@@ -8,9 +8,10 @@ abstract class ClassConexao
     {
         try
         {
-            $con=new PDO("mysql:host=localhost;bdname=crud","root","usbw");
+            $con=new PDO("mysql:host=localhost;dbname=crud","root","");
             return $con;
-        }catch (PDOException $Erro)
+        }
+        catch (PDOException $Erro)
         {
             return $Erro->getMessage();
         }
