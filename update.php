@@ -34,27 +34,9 @@
 						<input type="text" id="" name="endereco" placeholder="Endereço">
 					</div>
 					<div id="gid">
-						<input type="submit" value="Register Account">
-					</div>
-					<div id="gid">
-						<hr/>
-					</div>
-					<div id="gid">
-						<button type="submit" id="brn_google" class="btn btn-success">
-							<i class="fa fa-google fa-lg"></i><a> Register with Google</a>
-						</button>
-					</div>
-					<div id="gid">
-						<button type="submit" id="brn_face" class="btn btn-success">
-							<i class="fa fa-facebook fa-lg"></i><a> Register with Facebook</a>
-						</button>
-					</div>
-					<div id="gid">
-						<hr/>
+						<input type="submit" value="Atualizar">
 					</div>
 				</form>
-				<a href="#" >Forgot password?</a><br>
-				<a href="#" >Already have an account? Login!</a>
 			</div>
 		</div>
 	</body>

@@ -20,4 +20,7 @@ $Crud->updateDB(
         $id
     )
 );
-echo "Cadastro Editado com Sucesso!";
+
+include("../topMensagem.php");
+echo"Atualização realizado com sucesso";
+include("../bottomMensagem.php");

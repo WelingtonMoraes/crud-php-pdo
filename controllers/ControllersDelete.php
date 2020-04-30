@@ -5,6 +5,7 @@ include("../php/ClassCrud.php");
 
 $Crud=new ClassCrud();
 $IdUser=filter_input(INPUT_GET,'id',FILTER_SANITIZE_SPECIAL_CHARS);
+$confirme=filter_input(INPUT_GET,'confi',FILTER_SANITIZE_SPECIAL_CHARS);
 
 $Crud->deleteDB(
     "cadastro",
@@ -14,4 +15,4 @@ $Crud->deleteDB(
     )
 );
 
-echo "Dado deletado com sucesso!";
+echo'<script language="javascript" type="text/javascript">window.location.href="../selecao.php";</script>';

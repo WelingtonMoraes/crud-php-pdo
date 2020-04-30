@@ -33,7 +33,7 @@
 						<input type="text" id="" name="endereco" placeholder="Endereço">
 					</div>
 					<div id="gid">
-						<input type="submit" value="Register Account">
+						<input type="submit" value="Cadastrar-se">
 					</div>
 					<div id="gid">
 						<hr/>
@@ -52,8 +52,8 @@
 						<hr/>
 					</div>
 				</form>
-				<a href="#" >Forgot password?</a><br>
-				<a href="#" >Already have an account? Login!</a>
+				<a href="#" >Esqueceu sua senha?</a><br>
+				<a href="#" >Já tem uma conta? Faça seu Login!</a>
 			</div>
 		</div>
 	</body>
