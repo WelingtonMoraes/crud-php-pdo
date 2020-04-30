@@ -18,7 +18,7 @@ $Crud->insertDB(
         $email,
         $data,
         $endereco
-        )
+    )
 );
 
 include("../topMensagem.php");
@@ -41,7 +41,7 @@ try {
     $mail->Port = 587;
 
     $mail->setFrom('');
-    $mail->addAddress('davi@signoweb.com.br');
+    $mail->addAddress('');
 
     $mail->isHTML(true);
     $mail->Subject = "Teste de email via PHPMailer";

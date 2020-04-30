@@ -3,7 +3,7 @@
 class ClassCrud extends ClassConexao
 {
     #Atributos
-    private $Crud;
+    public $Crud;
     private $Contador;
 
     #Preparação das declativas
@@ -32,7 +32,7 @@ class ClassCrud extends ClassConexao
     #Seleção no Banco de Dados
     public function selectDB($Campos , $Tabela , $Condicao , $Parametros)
     {
-        $this->preparedStatements("select {$Campos} from {$Tabela} {$Condicao}",$Parametros);
+        $this->preparedStatements("select {$Campos} from {$Tabela} {$Condicao}", $Parametros);
         return $this->Crud;
     }
 
@@ -53,7 +53,7 @@ class ClassCrud extends ClassConexao
     #Atualização no banco de dados
     public function updateDB($Tabela , $Set , $Condicao , $Parametros)
     {
-        $this->preparedStatements("update {$Tabela} set {$Set} where {$Condicao}",$Parametros);
+        $this->preparedStatements("update {$Tabela} set {$Set} where {$Condicao}", $Parametros);
         return $this->Crud;
     }
 }

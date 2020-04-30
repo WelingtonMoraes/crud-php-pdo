@@ -14,6 +14,7 @@
         $Crud=new ClassCrud();
         $IdUser=filter_input(INPUT_GET,'id',FILTER_SANITIZE_SPECIAL_CHARS);
 	?>
+	
 	<body>
 		<div class="left">
 			<img src="img/doguinho.png" alt="Doguinho" class="doguinho">
