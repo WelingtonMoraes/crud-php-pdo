@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 26-Mar-2020 às 01:16
+-- Tempo de geração: 30-Abr-2020 às 16:18
 -- Versão do servidor: 10.4.11-MariaDB
 -- versão do PHP: 7.4.3
 
@@ -38,16 +38,6 @@ CREATE TABLE `cadastro` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Extraindo dados da tabela `cadastro`
---
-
-INSERT INTO `cadastro` (`id`, `nome`, `telefone`, `email`, `data`, `endereco`) VALUES
-(3, 'well', '(41) 99788-1509', 'welingtonfernando282@gmail.com', '2020-01-01', 'Wilson boia, 193'),
-(6, 'Welington Fernando', '(41) 99788-1509', 'welingtonfernando282@gmail.com', '4000-03-02', 'Wilson boia, 193'),
-(7, 'well', '(99) 999999999-9999', 'well@gmail.com', '2005-01-01', 'Wilson boia, 193'),
-(8, 'well', '(99) 999999999-9999', 'well@gmail.com', '2005-01-01', 'Wilson boia, 193');
-
---
 -- Índices para tabelas despejadas
 --
 
@@ -65,7 +55,7 @@ ALTER TABLE `cadastro`
 -- AUTO_INCREMENT de tabela `cadastro`
 --
 ALTER TABLE `cadastro`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
